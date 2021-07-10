@@ -1,8 +1,7 @@
 # Instagram Scraper Bot
 
--do not check "is_disabled" is disabled with accounts, just public. because they can block you, or you could blocked them. just maybe check with normals, but be sure with public.
--consider accounts can block someone, or blocked by someone which is in chceking,
-because of this check disabled just with public info.
+- do not check "is_disabled" info with sessions. because accounts can block account, but can't block public (anonymous requests).
+- consider accounts can block someone, or blocked by someone which is in chceking,
 
 BotManager is a class for managing;
  - MongoDB
